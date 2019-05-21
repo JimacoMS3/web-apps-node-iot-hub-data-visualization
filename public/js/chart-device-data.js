@@ -1,6 +1,6 @@
 $(document).ready(function () {
   // if deployed to a site requiring SSL, change to wss://
-  var protocol = 'ws://';
+  var protocol = 'wss://';
   var ws = new WebSocket(protocol + location.host);
 
   class DeviceData {
