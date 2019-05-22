@@ -2,6 +2,10 @@
   "name": "webapp",
   "version": "0.0.1",
   "private": true,
+  "engines" : {
+    "node" : ">=10.6",
+    "npm": ">=6.0.0"
+  },
   "scripts": {
     "start": "node server.js"
   },
